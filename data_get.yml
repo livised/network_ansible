@@ -1,7 +1,7 @@
 ---
 
 - name: Getting data from routers
-  hosts: routers
+  hosts: mikrotik
   gather_facts: false
 
   tasks:
